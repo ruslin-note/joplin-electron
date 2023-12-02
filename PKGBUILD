@@ -30,7 +30,7 @@ sha256sums=(
 prepare() {
   export ELECTRON_SKIP_BINARY_DOWNLOAD=1
 
-  patch -Np1 -i "${srcdir}"/0001-support-enable-wayland-ime.patch -d "${srcdir}/joplin-${pkgver}"
+  patch -Np1 -i "${srcdir}"/patches/0001-support-enable-wayland-ime.patch -d "${srcdir}/joplin-${pkgver}"
 
   msg2 "Disabling husky (git hooks)"
   sed -i '/"husky": ".*"/d' "$srcdir/joplin-${pkgver}/package.json"

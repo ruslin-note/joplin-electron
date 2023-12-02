@@ -1,0 +1,13 @@
+diff --git a/packages/app-desktop/package.json b/packages/app-desktop/package.json
+index cb247dc..5fbcf1a 100644
+--- a/packages/app-desktop/package.json
++++ b/packages/app-desktop/package.json
+@@ -39,7 +39,7 @@
+     ],
+     "afterAllArtifactBuild": "./generateSha512.js",
+     "asar": true,
+-    "asarUnpack": "./node_modules/node-notifier/vendor/**",
++    "asarUnpack": "./node_modules/**/*.node",
+     "win": {
+       "rfc3161TimeStampServer": "http://timestamp.digicert.com",
+       "icon": "../../Assets/ImageSources/Joplin.ico",
