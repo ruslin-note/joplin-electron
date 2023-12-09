@@ -1,3 +1,4 @@
+set -e
 VERSION=2.13.8
 URL="https://github.com/laurent22/joplin/archive/refs/tags/v$VERSION.tar.gz"
 echo "Downloading $URL"
