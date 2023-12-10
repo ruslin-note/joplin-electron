@@ -17,15 +17,15 @@ jobs:
         with:
           node-version: 18
       - name: Download
-        run: bash scripts/download.sh
+        run: bash download.sh
       - name: Patch
-        run: bash scripts/patch.sh
+        run: bash patch.sh
       - name: Install
-        run: bash scripts/install.sh
+        run: bash install.sh
       - name: Build
-        run: bash scripts/build.sh
+        run: bash build.sh
       - name: Archive
-        run: bash scripts/archive.sh
+        run: bash archive.sh
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
