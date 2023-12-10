@@ -1,2 +1,5 @@
 /joplin
 /resources.tar.gz
+/src
+/*.zst
+/pkg
