@@ -1,8 +1,8 @@
 diff --git a/packages/app-desktop/package.json b/packages/app-desktop/package.json
-index cb247dc..5fbcf1a 100644
+index 8e4fdbaf4..fe25a6116 100644
 --- a/packages/app-desktop/package.json
 +++ b/packages/app-desktop/package.json
-@@ -39,7 +39,7 @@
+@@ -42,7 +42,7 @@
      ],
      "afterAllArtifactBuild": "./generateSha512.js",
      "asar": true,
