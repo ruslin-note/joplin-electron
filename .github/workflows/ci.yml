@@ -16,6 +16,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
+      - name: Install Yarn
+        run: corepack enable
       - name: Download
         run: bash scripts/download.sh
       - name: Patch
