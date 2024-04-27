@@ -1,5 +1,5 @@
 set -e
-VERSION=2.14.7
+VERSION=2.14.20
 URL="https://github.com/laurent22/joplin/archive/refs/tags/v$VERSION.tar.gz"
 echo "Downloading $URL"
 wget -O joplin.tar.gz $URL
