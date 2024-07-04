@@ -1,5 +1,5 @@
 diff --git a/packages/app-desktop/package.json b/packages/app-desktop/package.json
-index 58e0b5833..200f20f1b 100644
+index 8c9a6c5..c0645dd 100644
 --- a/packages/app-desktop/package.json
 +++ b/packages/app-desktop/package.json
 @@ -38,8 +38,7 @@
@@ -18,5 +18,5 @@ index 58e0b5833..200f20f1b 100644
    "devDependencies": {
 -    "7zip-bin": "5.2.0",
      "@electron/rebuild": "3.3.0",
-     "@joplin/default-plugins": "~2.14",
-     "@joplin/tools": "~2.14",
+     "@joplin/default-plugins": "~3.0",
+     "@joplin/tools": "~3.0",

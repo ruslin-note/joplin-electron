@@ -1,8 +1,8 @@
 diff --git a/packages/lib/utils/processStartFlags.ts b/packages/lib/utils/processStartFlags.ts
-index d425b04d4..5d3b87a13 100644
+index 9752851..6869d58 100644
 --- a/packages/lib/utils/processStartFlags.ts
 +++ b/packages/lib/utils/processStartFlags.ts
-@@ -152,6 +152,13 @@ const processStartFlags = async (argv: string[], setDefaults = true) => {
+@@ -160,6 +160,13 @@ const processStartFlags = async (argv: string[], setDefaults = true) => {
  			continue;
  		}
  
