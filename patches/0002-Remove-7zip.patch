@@ -1,5 +1,14 @@
+From 218d426b80a92ad44166729d146fdf6fe6703df8 Mon Sep 17 00:00:00 2001
+From: DianQK <dianqk@dianqk.net>
+Date: Thu, 4 Jul 2024 20:03:21 +0800
+Subject: [PATCH 2/3] Remove 7zip
+
+---
+ packages/app-desktop/package.json | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
 diff --git a/packages/app-desktop/package.json b/packages/app-desktop/package.json
-index 8c9a6c5..c0645dd 100644
+index 17f88f15d..6ed5c96a6 100644
 --- a/packages/app-desktop/package.json
 +++ b/packages/app-desktop/package.json
 @@ -38,8 +38,7 @@
@@ -10,13 +19,16 @@ index 8c9a6c5..c0645dd 100644
 -      "build/7zip/**"
 +      "build/tesseract.js-core/**"
      ],
-     "afterAllArtifactBuild": "./generateSha512.js",
+     "afterAllArtifactBuild": "./afterAllArtifactBuild.js",
      "asar": true,
-@@ -119,7 +118,6 @@
+@@ -123,7 +122,6 @@
    },
    "homepage": "https://github.com/laurent22/joplin#readme",
    "devDependencies": {
 -    "7zip-bin": "5.2.0",
-     "@electron/rebuild": "3.3.0",
-     "@joplin/default-plugins": "~3.0",
-     "@joplin/tools": "~3.0",
+     "@electron/rebuild": "3.6.0",
+     "@joplin/default-plugins": "~3.1",
+     "@joplin/tools": "~3.1",
+-- 
+2.47.0
+

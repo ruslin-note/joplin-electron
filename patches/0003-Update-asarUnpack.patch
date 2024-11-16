@@ -1,13 +1,25 @@
+From 3b503afe6a89818b61811d59d1c6b8a80aad8579 Mon Sep 17 00:00:00 2001
+From: DianQK <dianqk@dianqk.net>
+Date: Thu, 4 Jul 2024 20:04:26 +0800
+Subject: [PATCH 3/3] Update `asarUnpack`
+
+---
+ packages/app-desktop/package.json | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
 diff --git a/packages/app-desktop/package.json b/packages/app-desktop/package.json
-index c0645dd..581b113 100644
+index 6ed5c96a6..b255da379 100644
 --- a/packages/app-desktop/package.json
 +++ b/packages/app-desktop/package.json
 @@ -42,7 +42,7 @@
      ],
-     "afterAllArtifactBuild": "./generateSha512.js",
+     "afterAllArtifactBuild": "./afterAllArtifactBuild.js",
      "asar": true,
 -    "asarUnpack": "./node_modules/node-notifier/vendor/**",
 +    "asarUnpack": "./node_modules/**/*.node",
      "win": {
        "rfc3161TimeStampServer": "http://timestamp.digicert.com",
        "icon": "../../Assets/ImageSources/Joplin.ico",
+-- 
+2.47.0
+
