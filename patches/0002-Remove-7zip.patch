@@ -1,4 +1,4 @@
-From 218d426b80a92ad44166729d146fdf6fe6703df8 Mon Sep 17 00:00:00 2001
+From d1392ec6e374d3fd57eab3910eec141d02c08357 Mon Sep 17 00:00:00 2001
 From: DianQK <dianqk@dianqk.net>
 Date: Thu, 4 Jul 2024 20:03:21 +0800
 Subject: [PATCH 2/3] Remove 7zip
@@ -8,7 +8,7 @@ Subject: [PATCH 2/3] Remove 7zip
  1 file changed, 1 insertion(+), 3 deletions(-)
 
 diff --git a/packages/app-desktop/package.json b/packages/app-desktop/package.json
-index 17f88f15d..6ed5c96a6 100644
+index aa7f5179e..d202c2bf2 100644
 --- a/packages/app-desktop/package.json
 +++ b/packages/app-desktop/package.json
 @@ -38,8 +38,7 @@
@@ -26,9 +26,9 @@ index 17f88f15d..6ed5c96a6 100644
    "homepage": "https://github.com/laurent22/joplin#readme",
    "devDependencies": {
 -    "7zip-bin": "5.2.0",
+     "@axe-core/playwright": "4.10.0",
      "@electron/rebuild": "3.6.0",
-     "@joplin/default-plugins": "~3.1",
-     "@joplin/tools": "~3.1",
+     "@joplin/default-plugins": "~3.2",
 -- 
 2.47.0
 
